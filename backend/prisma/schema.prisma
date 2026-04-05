@@ -3,8 +3,11 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider  = "postgresql"
+  // Pooled URL (Neon “Transaction” pooler) for the running app; avoids exhausting connections on serverless / PaaS.
+  url       = env("postgresql://neondb_owner:npg_AOnlzo9dMN8q@ep-billowing-heart-a4pk38c2-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require")
+  // Direct URL (Neon non-pooling) for `prisma migrate` / introspection. For a single local Postgres, set equal to DATABASE_URL.
+  directUrl = env("postgresql://neondb_owner:npg_AOnlzo9dMN8q@ep-billowing-heart-a4pk38c2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require")
 }
 
 enum RoleName {
