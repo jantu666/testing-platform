@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --forum-card: #1a2332;
+  --forum-border: #2d3a4f;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.forum-card {
+  @apply rounded-lg border border-forum-border bg-forum-card shadow-sm;
+}
+
+.forum-row {
+  @apply border-b border-forum-border py-3 last:border-0;
+}

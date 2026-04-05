@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "Тесты",
+    "login": "Вход",
+    "register": "Регистрация",
+    "profile": "Профиль",
+    "createTest": "Создать тест",
+    "admin": "Админ",
+    "logout": "Выход"
+  },
+  "home": {
+    "title": "Доска тестов",
+    "subtitle": "Опубликованные тесты. Войдите, чтобы создавать тесты или проходить приватные по ссылке.",
+    "empty": "Пока нет тестов.",
+    "questions": "вопросов",
+    "private": "Приватный",
+    "draft": "Черновик"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Пароль",
+    "nickname": "Ник",
+    "loginTitle": "Вход",
+    "registerTitle": "Регистрация",
+    "submitLogin": "Войти",
+    "submitRegister": "Зарегистрироваться",
+    "noAccount": "Нет аккаунта?",
+    "hasAccount": "Уже есть аккаунт?"
+  },
+  "test": {
+    "by": "от",
+    "start": "Начать тест",
+    "edit": "Редактировать",
+    "shareLink": "Ссылка (приватный)",
+    "question": "Вопрос",
+    "of": "из",
+    "next": "Далее",
+    "finish": "Завершить",
+    "selectAnswers": "Выберите ответ(ы)",
+    "resultTitle": "Результат",
+    "score": "Балл",
+    "time": "Время",
+    "tabSwitches": "Смен вкладки",
+    "antiCheatEnd": "Тест завершён: слишком много переключений вкладки.",
+    "createTitle": "Новый тест",
+    "metaStep": "Детали",
+    "editorStep": "Вопросы",
+    "titleLabel": "Название",
+    "descLabel": "Описание",
+    "privateLabel": "Приватный тест",
+    "addQuestion": "Добавить вопрос",
+    "addAnswer": "Добавить ответ",
+    "correct": "Верный",
+    "publish": "Опубликовать",
+    "saveDraft": "Сохранить черновик",
+    "back": "Назад"
+  },
+  "profile": {
+    "passed": "Пройдено тестов",
+    "history": "История",
+    "roles": "Роли",
+    "editNickname": "Обновить ник",
+    "avatar": "Аватар"
+  },
+  "admin": {
+    "title": "Пользователи",
+    "blocked": "Заблокирован",
+    "active": "Активен",
+    "toggleBlock": "Блок",
+    "roles": "Роли"
+  },
+  "common": {
+    "loading": "Загрузка…",
+    "error": "Ошибка",
+    "save": "Сохранить",
+    "cancel": "Отмена"
+  }
+}

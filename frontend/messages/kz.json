@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "Тесттер",
+    "login": "Кіру",
+    "register": "Тіркелу",
+    "profile": "Профиль",
+    "createTest": "Тест жасау",
+    "admin": "Әкімші",
+    "logout": "Шығу"
+  },
+  "home": {
+    "title": "Тест тақтасы",
+    "subtitle": "Жарияланған тесттер. Тест жасау немесе жеке сілтемемен өту үшін кіріңіз.",
+    "empty": "Тесттер жоқ.",
+    "questions": "сұрақ",
+    "private": "Жеке",
+    "draft": "Жоба"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Құпия сөз",
+    "nickname": "Лақап ат",
+    "loginTitle": "Кіру",
+    "registerTitle": "Тіркелу",
+    "submitLogin": "Кіру",
+    "submitRegister": "Тіркелу",
+    "noAccount": "Аккаунт жоқ па?",
+    "hasAccount": "Аккаунтыңыз бар ма?"
+  },
+  "test": {
+    "by": "авторы",
+    "start": "Тестті бастау",
+    "edit": "Өңдеу",
+    "shareLink": "Сілтеме (жеке)",
+    "question": "Сұрақ",
+    "of": "ішінен",
+    "next": "Келесі",
+    "finish": "Аяқтау",
+    "selectAnswers": "Жауапты таңдаңыз",
+    "resultTitle": "Нәтиже",
+    "score": "Ұпай",
+    "time": "Уақыт",
+    "tabSwitches": "Қойынды ауыстыру",
+    "antiCheatEnd": "Тест аяқталды: қойындыны тым көп ауыстырдыңыз.",
+    "createTitle": "Жаңа тест",
+    "metaStep": "Мәлімет",
+    "editorStep": "Сұрақтар",
+    "titleLabel": "Атауы",
+    "descLabel": "Сипаттама",
+    "privateLabel": "Жеке тест",
+    "addQuestion": "Сұрақ қосу",
+    "addAnswer": "Жауап қосу",
+    "correct": "Дұрыс",
+    "publish": "Жариялау",
+    "saveDraft": "Жобаны сақтау",
+    "back": "Артқа"
+  },
+  "profile": {
+    "passed": "Өткен тесттер",
+    "history": "Тарих",
+    "roles": "Рөлдер",
+    "editNickname": "Лақап атты жаңарту",
+    "avatar": "Аватар"
+  },
+  "admin": {
+    "title": "Пайдаланушылар",
+    "blocked": "Бұғатталған",
+    "active": "Белсенді",
+    "toggleBlock": "Бұғаттау",
+    "roles": "Рөлдер"
+  },
+  "common": {
+    "loading": "Жүктелуде…",
+    "error": "Қате",
+    "save": "Сақтау",
+    "cancel": "Болдырмау"
+  }
+}

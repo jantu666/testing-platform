@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "Tests",
+    "login": "Log in",
+    "register": "Register",
+    "profile": "My profile",
+    "createTest": "Create test",
+    "admin": "Admin",
+    "logout": "Log out"
+  },
+  "home": {
+    "title": "Testing board",
+    "subtitle": "Browse published tests. Sign in to create or take private tests via link.",
+    "empty": "No tests yet.",
+    "questions": "questions",
+    "private": "Private",
+    "draft": "Draft"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "nickname": "Nickname",
+    "loginTitle": "Sign in",
+    "registerTitle": "Create account",
+    "submitLogin": "Sign in",
+    "submitRegister": "Register",
+    "noAccount": "No account?",
+    "hasAccount": "Already have an account?"
+  },
+  "test": {
+    "by": "by",
+    "start": "Start test",
+    "edit": "Edit",
+    "shareLink": "Share link (private)",
+    "question": "Question",
+    "of": "of",
+    "next": "Next",
+    "finish": "Finish",
+    "selectAnswers": "Select answer(s)",
+    "resultTitle": "Result",
+    "score": "Score",
+    "time": "Time",
+    "tabSwitches": "Tab switches",
+    "antiCheatEnd": "Test ended: too many tab switches.",
+    "createTitle": "New test",
+    "metaStep": "Details",
+    "editorStep": "Questions",
+    "titleLabel": "Title",
+    "descLabel": "Description",
+    "privateLabel": "Private test",
+    "addQuestion": "Add question",
+    "addAnswer": "Add answer",
+    "correct": "Correct",
+    "publish": "Publish",
+    "saveDraft": "Save draft",
+    "back": "Back"
+  },
+  "profile": {
+    "passed": "Tests passed",
+    "history": "History",
+    "roles": "Roles",
+    "editNickname": "Update nickname",
+    "avatar": "Avatar image"
+  },
+  "admin": {
+    "title": "User management",
+    "blocked": "Blocked",
+    "active": "Active",
+    "toggleBlock": "Toggle block",
+    "roles": "Roles"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Something went wrong",
+    "save": "Save",
+    "cancel": "Cancel"
+  }
+}
