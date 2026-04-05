@@ -3,8 +3,11 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider  = "postgresql"
+  // Pooled URL (Neon “Transaction” pooler) for the running app; avoids exhausting connections on serverless / PaaS.
+  url       = env("DATABASE_URL")
+  // Direct URL (Neon non-pooling) for `prisma migrate` / introspection. For a single local Postgres, set equal to DATABASE_URL.
+  directUrl = env("DIRECT_URL")
 }
 
 enum RoleName {
